@@ -1,0 +1,13 @@
+.books__card__wrapper{
+    width: 781.13px;
+    overflow: hidden;
+}
+
+.card__slayder{
+    display: flex;
+    gap: 41.51px;
+}
+
+.card__slayder:hover{
+    transform: translateX(-200px);
+}

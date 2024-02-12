@@ -1,0 +1,50 @@
+.cards__all {
+  width: 1261.91px;
+  margin: 147.8px auto;
+}
+.cards__heading h2 {
+  text-align: center;
+  color: rgb(201, 172, 140);
+  font-family: "Style Script", cursive;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin-bottom: 20.54px;
+}
+.links {
+  margin: 0px auto;
+  margin-bottom: 38.4px;
+}
+.links ul {
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
+  list-style: none;
+  display: flex;
+  gap: 49px;
+}
+.links ul li {
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.links ul li:hover {
+  color: white;
+}
+
+
+.main__cards{
+  justify-content: center;
+  display: flex;
+  width: 1269.91px;
+  gap: 43.21px;
+  flex-wrap: wrap;
+}

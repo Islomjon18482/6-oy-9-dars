@@ -1,0 +1,66 @@
+.header{
+    margin-bottom: 54.42px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgb(25, 25, 25);
+    padding: 18.5px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #C9AC8C;
+    font-family: 'Style Script', cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.4%;
+}
+
+.nav__bar{
+    color: #c4c3c3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 144.4%; 
+}
+.nav__bar ul{
+    gap: 23.5px;
+    display: flex;
+    list-style-type: none;
+}
+.nav__bar ul li{
+    padding: 10px;
+}
+
+.nav__bar li{
+    cursor: pointer;
+    position: relative;
+}
+.nav__bar li::after{
+    left: 0;
+    bottom: -23px;
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #FFF;
+    transition: all 0.3s;
+}
+.nav__bar li:hover::after{
+    width: 100%;
+}
+.nav__bar li:hover{
+    color: #FFF;
+}
+
+.avatar{
+    display: flex;
+    gap: 11.25px;
+    align-items: center;
+}
+
+.avatar .avatar__img{
+    border-radius: 50px;
+}

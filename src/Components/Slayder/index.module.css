@@ -1,0 +1,78 @@
+.wrapper{
+    width: 5200px;
+    display: flex;
+}
+.slayder{
+    margin: 0px auto;
+    width: 1261.91px;
+    overflow: hidden;
+}
+
+.allWrapper{
+    margin: 0px auto;
+    position: relative;
+    width: 1261.91px;
+}
+
+.backgrounSlide{
+    width: 1261.91px;
+    height: 346.97px;
+    position: absolute;
+    z-index: 2;
+}
+.slide{
+    display: flex;
+    border-radius: 21px;
+    overflow: hidden;
+    height: 346px;
+    width: 1261.91px !important;
+    position: relative;
+    background: linear-gradient(92.70deg, rgb(38, 58, 61) 71.198%,rgba(25, 25, 25, 0) 105.874%);
+}
+.slayderMan{
+    width: 397.53px;
+    height: 346.97px;
+    position: absolute;
+    right: 0;
+    border-radius: 21px;
+}
+
+.star1{
+    position: absolute;
+    z-index: 2;
+    top: 117.31px;
+    right: 1016.89px;
+}
+
+.star2{
+    position: absolute;
+    z-index: 2;
+    bottom: 259.49px;
+    left: 455.95px;
+    width: 174.96px;
+    height: 174.98px;
+}
+
+.star3{
+    position: absolute;
+    z-index: 2;
+    top: 188.31px;
+    left: 615.04px;
+    height: 265.97px;
+    width: 265.94px;
+}
+
+.slide__text{
+    width: 337px;
+    position: absolute;
+    color: rgb(201, 172, 140);
+    font-family: 'Style Script', cursive;    font-size: 61px;
+    font-weight: 400;
+    line-height: 67px;
+    font-size: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    z-index: 2;
+    top: 45.31px;
+    left: 86.4px    ;
+}

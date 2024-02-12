@@ -1,0 +1,61 @@
+.img img {
+  width: 582px;
+  height: 779.33px;
+  border-radius: 0px 50px 50px 0px;
+  margin-bottom: 39.53px;
+}
+.img__born{
+    width: 582px;
+    display: flex;
+    flex-direction: column;
+}
+.info__born{
+    justify-content: center;
+    display: flex;
+}
+
+.info__born p{
+    color: rgba(255, 255, 255, 0.6);
+font-size: 20px;
+font-weight: 300;
+line-height: 144.4%;
+letter-spacing: 0%;
+}
+
+.info__born h2{
+    width: 220px;
+    color: rgb(201, 172, 140);
+font-size: 45px;
+font-family: 'Style Script', cursive;
+font-weight: 400;
+line-height: 144.4%;
+letter-spacing: 0%;
+text-align: left;
+}
+.more__wrapper{
+    display: flex;
+    gap: 87.78px;
+    justify-content: center;
+}
+.more__text .name{
+    color: rgb(201, 172, 140);
+    font-family: 'Style Script', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+.more__text .life{
+    padding: 10px;
+    width: 681.56px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 144.4%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.cardBooks{
+    margin-top: 100px;
+}
