@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:3004/authors");
+        const response = await fetch("https://books-lp5i.onrender.com/authors");
         const data = await response.json();
         setInfo(data);
       } catch (error) {
@@ -25,7 +25,7 @@ function App() {
 
     fetchData();
 
-    fetch("http://localhost:3004/books")
+    fetch("https://books-lp5i.onrender.com/books")
       .then((res) => res.json())
       .then((data) => setBooks(data))
       .catch((err) => console.log(err));
